@@ -1,0 +1,103 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(to right, #556270, #4ECDC4);
+    color: #fff;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 2.8em;
+    color: #ffffff;
+}
+
+.subtitle {
+    font-size: 1.4em;
+    font-style: italic;
+    color: #e8e8e8;
+}
+
+/* Sections */
+section {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    border-bottom: 2px solid #4ECDC4;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+ul li span {
+    color: #4ECDC4;
+    font-weight: bold;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #556270;
+    color: #fff;
+    font-size: 1.1em;
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    color: #4ECDC4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #556270;
+}
